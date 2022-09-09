@@ -17,8 +17,7 @@ let generateExcuse = () => {
     "on the street",
     "in the bus",
     "at the parking lot",
-    "in front of my house"
-  ];
+    "in front of my house"  ];
 
   let pronounIndex = Math.floor(Math.random() * pronoun.length);
   let subjectIndex = Math.floor(Math.random() * subject.length);
